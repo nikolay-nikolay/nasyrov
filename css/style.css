@@ -7,6 +7,8 @@
 body {
     background: #FFFFFF;
     color: #FFFFFF;
+    font-size: 16px;
+    line-height: 150%;
 }
 
 .container {
@@ -46,6 +48,7 @@ body {
     color: #FFFFFF;
     border-color: none;
     margin-left: auto;
+    cursor: pointer;
 }
 
 .menu {
@@ -91,6 +94,11 @@ body {
     background: #121212;
 }
 
+.cards:hover {
+    background: #383838;
+    transition: all 0.3s;
+}
+
 .cards:last-of-type {
     margin-right: 0;
 }
@@ -126,6 +134,7 @@ body {
     font-size: 16px;
     line-height: 150%;
     color: #FFFFFF;
+    cursor: pointer;
 }
 
 .course__people {
@@ -167,8 +176,39 @@ body {
 }
 
 .money__sum {
-    margin-left: 30px;
     font-weight: bold;
     font-size: 16px;
     line-height: 150%;
+}
+
+.analytics {
+    display: flex;
+    margin-top: 8px;
+}
+
+.analytics__full {
+    width: 430px;
+    height: 6px;
+    background: linear-gradient(94.78deg, #DF5950 11.19%, #451046 93.72%);
+}
+
+.analytics__empty {
+    background: #FFFFFF;
+    width: 274px;
+    height: 6px;
+}
+
+.money__min-max {
+    display: flex;
+    margin-top: 5px;
+}
+
+.money__min {
+    opacity: 0.4;
+}
+
+.money__max {
+    opacity: 0.4;
+    float: right;
+    margin-left: auto;
 }
