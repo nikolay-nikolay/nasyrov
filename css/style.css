@@ -5,7 +5,7 @@
 }
 
 body {
-    background: #FFFFFF;
+    background: #181818;
     color: #FFFFFF;
     font-size: 16px;
     line-height: 150%;
@@ -70,7 +70,7 @@ body {
     margin-right: 0;
 }
 
-.title {
+.heading {
     margin-top: 198px;
 }
 
@@ -211,4 +211,90 @@ body {
     opacity: 0.4;
     float: right;
     margin-left: auto;
+}
+
+
+.about{
+    margin-top: 200px;
+    display: flex;
+}
+.title{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+.text{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 160%;
+    color: #FFFFFF;
+}
+
+.about__content{
+    margin-left: 139px;
+    margin-top: 70px;
+}
+.about__text{
+    margin-top: 45px;
+}
+
+.start__content{
+    display: flex;
+    align-items: center;
+}
+.start{
+    margin-top: 200px;
+}
+.ellipse{
+    transform: rotate(-135deg);
+}
+.start__title{
+    margin-left: 20px;
+}
+.start__subtitle{
+    margin-top: 50px;
+    opacity: 0.5;
+    width: 410px;
+}
+
+.graph{
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+.graph__percents{
+    font-size: 36px;
+    line-height: 140%;
+}
+.graphic{
+    width: 324px;
+    background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+}
+.graph__one{
+    height: 80px;
+    margin-top: 20px;
+    margin-bottom: 35px;
+}
+.graph__two{
+    height: 60px;
+    margin-top: 30px;
+    margin-bottom: 45px;
+}
+.graph__three{
+    height: 30px;
+    margin-top: 45px;
+    margin-bottom: 60px;
+}
+.graph__four{
+    height: 10px;
+    margin-top: 55px;
+    margin-bottom: 70px;
+}
+.graph__text{
+    opacity: 0.5;
 }
